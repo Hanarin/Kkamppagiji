@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/belongingTab"
+        android:enabled="true"
+        android:icon="@drawable/item"
+        android:title="소지품"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/timelineTab"
+        android:icon="@drawable/timeline"
+        android:title="타임라인"
+        app:showAsAction="ifRoom"/>
+</menu>
